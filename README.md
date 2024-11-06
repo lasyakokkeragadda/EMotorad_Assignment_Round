@@ -11,6 +11,7 @@ Sign In Page: Professional sign-in page with email/password fields and social lo
 Responsive and Accessible: Designed to work smoothly on both desktop and mobile devices, ensuring accessibility.
 
 Screenshots:
+
 Sign In Page
 ![E-Bikes_Sign In](https://github.com/user-attachments/assets/499a3ecd-40f3-4cac-9c47-7389504872d3)
 Dashboard
