@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Board.</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><span class="icon">🏠</span> Dashboard</a></li>
+                    <li><a href="#"><span class="icon">💼</span> Transactions</a></li>
+                    <li><a href="#"><span class="icon">📅</span> Schedules</a></li>
+                    <li><a href="#"><span class="icon">👥</span> Users</a></li>
+                    <li><a href="#"><span class="icon">⚙️</span> Settings</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="#">Help</a> | <a href="#">Contact Us</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <h1>Dashboard</h1>
+                <input type="text" placeholder="Search..." class="search-bar">
+            </header>
+
+            <!-- Statistics Cards -->
+            <section class="stats-cards">
+                <div class="card card1">
+                    <h3>$2,129,430</h3>
+                    <p>Total Revenue</p>
+                </div>
+                <div class="card card2">
+                    <h3>1,520</h3>
+                    <p>New Users</p>
+                </div>
+                <div class="card card3">
+                    <h3>9,721</h3>
+                    <p>Items Sold</p>
+                </div>
+                <div class="card card4">
+                    <h3>3.9%</h3>
+                    <p>Growth Rate</p>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts">
+                <div class="chart-container">
+                    <h3>Weekly Activity</h3>
+                    <canvas id="activityChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Top Products</h3>
+                    <canvas id="topProductsChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
