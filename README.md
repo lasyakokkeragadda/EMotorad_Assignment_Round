@@ -45,11 +45,23 @@ bash
 Copy code
 cd EMotorad_Assignment_Round
 Open the project:
+
+
 Open index.html in a browser to view the dashboard.
+
+
 Alternatively, use a live server extension if you’re using a code editor like VS Code.
+
+
 Usage
+
+
 Sign In Page: Start with the sign-in page to access the dashboard. It includes fields for email and password, as well as Google and Apple sign-in options.
+
+
 Dashboard:
+
+
 View metrics such as revenue, new users, items sold, and growth rate.
 Use the sidebar to switch between sections.
 Open the “Add New Profile” modal to add or manage user information.
@@ -58,6 +70,7 @@ index.html: Main HTML structure for the dashboard and sign-in page.
 styles.css: CSS for styling and layout, including responsive design.
 script.js: JavaScript for interactivity.
 assets/: Directory containing any images, icons, or fonts.
+
 Future Improvements
 Data Integration: Integrate with a back-end API to pull in real-time data for dashboard metrics.
 Authentication: Set up back-end authentication for the sign-in page.
