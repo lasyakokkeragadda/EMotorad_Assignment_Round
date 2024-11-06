@@ -17,10 +17,16 @@ Dashboard
 ![DashBoard_Emotorad](https://github.com/user-attachments/assets/0e22d021-678e-48d3-bf6f-279db366983e)
 
 Technologies Used
+
+
 HTML5: Structure of the UI components
+
 CSS3: Styling, animations, and responsive design
+
 JavaScript: Dynamic elements and interactive features
+
 FontAwesome: Icons for sidebar navigation
+
 Installation
 To get this project running on your local machine, follow these steps:
 Clone this repository:
