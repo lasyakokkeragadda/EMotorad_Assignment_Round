@@ -3,21 +3,23 @@
 
 A modern, visually appealing, and responsive admin dashboard with a sleek sign-in page. This project is built with HTML, CSS, and JavaScript, and is ideal for applications needing a well-organized admin panel and authentication page.
 
-Features
+**Features**
+
 Dashboard Metrics: Real-time key metrics such as Total Revenue, New Users, Items Sold, and Growth Rate.
 Interactive Sidebar Navigation: Access sections like Dashboard, Transactions, Schedules, Users, and Settings, each with custom icons.
 User Profile Modal: Add or edit user profiles directly on the dashboard through a modal popup.
 Sign In Page: Professional sign-in page with email/password fields and social login options (Google and Apple).
 Responsive and Accessible: Designed to work smoothly on both desktop and mobile devices, ensuring accessibility.
 
-Screenshots:
+**Screenshots**
 
 Sign In Page
 ![E-Bikes_Sign In](https://github.com/user-attachments/assets/499a3ecd-40f3-4cac-9c47-7389504872d3)
+
 Dashboard
 ![DashBoard_Emotorad](https://github.com/user-attachments/assets/0e22d021-678e-48d3-bf6f-279db366983e)
 
-Technologies Used
+**Technologies Used**
 
 
 HTML5: Structure of the UI components
@@ -28,7 +30,7 @@ JavaScript: Dynamic elements and interactive features
 
 FontAwesome: Icons for sidebar navigation
 
-Installation
+Installation:
 To get this project running on your local machine, follow these steps:
 Clone this repository:
 bash
