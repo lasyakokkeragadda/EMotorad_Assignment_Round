@@ -1,0 +1,135 @@
+/* Base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout styling */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    background-color: #663399; /* Adjusted purple shade */
+    color: #FFFFFF;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-panel .logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.left-panel .social-icons i {
+    color: #FFFFFF;
+    margin: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.right-panel {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f8fc;
+}
+
+.right-panel h1 {
+    color: #333;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.right-panel p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Button and form styling */
+.social-signin button {
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.google-signin {
+    background-color: #4285f4;
+}
+
+.apple-signin {
+    background-color: #333;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.forgot-password {
+    font-size: 0.8em;
+    color: #4285f4;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.signin-btn {
+    background-color: #663399; /* Same purple as left-panel */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color: #5a2d8f; /* Slightly darker purple for hover */
+}
+
+.signup-link {
+    font-size: 0.9em;
+    margin-top: 15px;
+    color: #666;
+}
+
+.signup-link a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
